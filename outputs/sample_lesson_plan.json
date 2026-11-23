@@ -1,0 +1,457 @@
+{
+  "schema_version": 1,
+  "plan_id": "LP-SAMPLE-001",
+  "status": "Pending Teacher Review",
+  "created_at": "2026-11-22T13:41:20Z",
+  "updated_at": "2026-11-22T13:41:20Z",
+  "request": {
+    "subject": "Science",
+    "class_name": "Year 7",
+    "topic": "Photosynthesis",
+    "duration_minutes": 60,
+    "learner_preferences": [
+      "hands-on",
+      "visual",
+      "group work"
+    ],
+    "previous_results": {
+      "class_average": 58.0,
+      "completion_rate": 0.72,
+      "weak_topics": [
+        "chlorophyll",
+        "gas exchange"
+      ],
+      "mastered_tags": [
+        "cells",
+        "plants"
+      ]
+    },
+    "approved_outcome_ids": [
+      "SCI7-PH-01",
+      "SCI7-PH-02",
+      "SCI7-PH-03"
+    ],
+    "teacher_notes": "Include a quick cell-parts review because two students were absent last lesson."
+  },
+  "curriculum": {
+    "curriculum_version": "2026.1",
+    "subject": "Science",
+    "class_name": "Year 7",
+    "topic": "Photosynthesis",
+    "outcomes": [
+      {
+        "id": "SCI7-PH-01",
+        "text": "Explain how light energy is absorbed by chlorophyll and used to make glucose during photosynthesis.",
+        "assessment": "Exit ticket: one paragraph explaining the role of chlorophyll.",
+        "prerequisite_tags": [
+          "cells",
+          "plants"
+        ]
+      },
+      {
+        "id": "SCI7-PH-02",
+        "text": "Describe the reactants and products of photosynthesis using the word equation.",
+        "assessment": "Label a diagram and complete the word equation.",
+        "prerequisite_tags": [
+          "cells",
+          "gas exchange"
+        ]
+      },
+      {
+        "id": "SCI7-PH-03",
+        "text": "Explain why photosynthesis is essential for life on Earth.",
+        "assessment": "Short answer linking photosynthesis to food chains and oxygen.",
+        "prerequisite_tags": [
+          "plants"
+        ]
+      }
+    ]
+  },
+  "objectives": [
+    {
+      "id": "OBJ-1",
+      "text": "Explain how light energy is absorbed by chlorophyll and used to make glucose during photosynthesis.",
+      "source_outcome_id": "SCI7-PH-01",
+      "success_criteria": "Exit ticket: one paragraph explaining the role of chlorophyll."
+    },
+    {
+      "id": "OBJ-2",
+      "text": "Describe the reactants and products of photosynthesis using the word equation.",
+      "source_outcome_id": "SCI7-PH-02",
+      "success_criteria": "Label a diagram and complete the word equation."
+    },
+    {
+      "id": "OBJ-3",
+      "text": "Explain why photosynthesis is essential for life on Earth.",
+      "source_outcome_id": "SCI7-PH-03",
+      "success_criteria": "Short answer linking photosynthesis to food chains and oxygen."
+    }
+  ],
+  "materials": [
+    "Fresh leaves",
+    "Hand lenses",
+    "Labelling pens",
+    "Leaf cross-section diagrams",
+    "Marker pens",
+    "Microscopes",
+    "Mini whiteboards",
+    "Prediction slips",
+    "Timer"
+  ],
+  "activities": [
+    {
+      "activity_id": "ACT-PH-01",
+      "title": "Leaf clue warm-up",
+      "description": "Pairs inspect fresh leaves with hand lenses and predict where light is captured.",
+      "subject": "Science",
+      "topics": [
+        "Photosynthesis"
+      ],
+      "phase": "starter",
+      "duration_minutes": 10,
+      "tags": [
+        "visual",
+        "hands-on",
+        "group work",
+        "biology"
+      ],
+      "prerequisite_tags": [
+        "plants"
+      ],
+      "targets_tags": [
+        "chlorophyll"
+      ],
+      "supports_outcomes": [
+        "SCI7-PH-01"
+      ],
+      "materials": [
+        "Fresh leaves",
+        "Hand lenses",
+        "Prediction slips"
+      ],
+      "assessment_evidence": "Partner predictions identifying where light is captured.",
+      "difficulty": "core",
+      "score": 0.6375,
+      "score_breakdown": {
+        "preference_match": {
+          "raw": 1.0,
+          "weight": 0.3,
+          "points": 0.3
+        },
+        "outcome_alignment": {
+          "raw": 0.3333,
+          "weight": 0.3,
+          "points": 0.1
+        },
+        "prerequisite_readiness": {
+          "raw": 1.0,
+          "weight": 0.15,
+          "points": 0.15
+        },
+        "previous_results_fit": {
+          "raw": 0.25,
+          "weight": 0.15,
+          "points": 0.0375
+        },
+        "weak_topic_alignment": {
+          "raw": 0.5,
+          "weight": 0.1,
+          "points": 0.05
+        }
+      },
+      "reasons": [
+        "Matches learner preferences: group work, hands-on, visual.",
+        "Supports approved outcome(s): SCI7-PH-01.",
+        "Prerequisite 'plants' is recorded as mastered.",
+        "Targets weak topic(s): chlorophyll.",
+        "Selected for the starter phase; 10 minutes fit the lesson sequence."
+      ],
+      "warnings": [
+        "Class average 58.0% is below 60%; this activity is not explicitly scaffolded."
+      ],
+      "sequence": 1
+    },
+    {
+      "activity_id": "ACT-PH-03",
+      "title": "Chlorophyll reveal",
+      "description": "Groups examine leaf cross-sections and connect chloroplast location to light absorption.",
+      "subject": "Science",
+      "topics": [
+        "Photosynthesis"
+      ],
+      "phase": "main",
+      "duration_minutes": 20,
+      "tags": [
+        "visual",
+        "hands-on",
+        "group work",
+        "biology"
+      ],
+      "prerequisite_tags": [
+        "cells",
+        "plants"
+      ],
+      "targets_tags": [
+        "chlorophyll"
+      ],
+      "supports_outcomes": [
+        "SCI7-PH-01",
+        "SCI7-PH-02"
+      ],
+      "materials": [
+        "Leaf cross-section diagrams",
+        "Microscopes",
+        "Labelling pens"
+      ],
+      "assessment_evidence": "Annotated diagram linking chloroplasts to light absorption.",
+      "difficulty": "core",
+      "score": 0.7375,
+      "score_breakdown": {
+        "preference_match": {
+          "raw": 1.0,
+          "weight": 0.3,
+          "points": 0.3
+        },
+        "outcome_alignment": {
+          "raw": 0.6667,
+          "weight": 0.3,
+          "points": 0.2
+        },
+        "prerequisite_readiness": {
+          "raw": 1.0,
+          "weight": 0.15,
+          "points": 0.15
+        },
+        "previous_results_fit": {
+          "raw": 0.25,
+          "weight": 0.15,
+          "points": 0.0375
+        },
+        "weak_topic_alignment": {
+          "raw": 0.5,
+          "weight": 0.1,
+          "points": 0.05
+        }
+      },
+      "reasons": [
+        "Matches learner preferences: group work, hands-on, visual.",
+        "Supports approved outcome(s): SCI7-PH-01, SCI7-PH-02.",
+        "Prerequisite 'cells' is recorded as mastered.",
+        "Prerequisite 'plants' is recorded as mastered.",
+        "Targets weak topic(s): chlorophyll.",
+        "Selected for the main phase; 20 minutes fit the lesson sequence."
+      ],
+      "warnings": [
+        "Class average 58.0% is below 60%; this activity is not explicitly scaffolded."
+      ],
+      "sequence": 2
+    },
+    {
+      "activity_id": "ACT-PH-05",
+      "title": "Explain-it board",
+      "description": "Students build a visual explanation of photosynthesis on a shared whiteboard.",
+      "subject": "Science",
+      "topics": [
+        "Photosynthesis"
+      ],
+      "phase": "practice",
+      "duration_minutes": 15,
+      "tags": [
+        "discussion",
+        "visual",
+        "independent",
+        "biology"
+      ],
+      "prerequisite_tags": [
+        "cells"
+      ],
+      "targets_tags": [
+        "chlorophyll"
+      ],
+      "supports_outcomes": [
+        "SCI7-PH-01",
+        "SCI7-PH-03"
+      ],
+      "materials": [
+        "Mini whiteboards",
+        "Marker pens"
+      ],
+      "assessment_evidence": "Whiteboard explanation with a labelled energy flow.",
+      "difficulty": "core",
+      "score": 0.5375,
+      "score_breakdown": {
+        "preference_match": {
+          "raw": 0.3333,
+          "weight": 0.3,
+          "points": 0.1
+        },
+        "outcome_alignment": {
+          "raw": 0.6667,
+          "weight": 0.3,
+          "points": 0.2
+        },
+        "prerequisite_readiness": {
+          "raw": 1.0,
+          "weight": 0.15,
+          "points": 0.15
+        },
+        "previous_results_fit": {
+          "raw": 0.25,
+          "weight": 0.15,
+          "points": 0.0375
+        },
+        "weak_topic_alignment": {
+          "raw": 0.5,
+          "weight": 0.1,
+          "points": 0.05
+        }
+      },
+      "reasons": [
+        "Matches learner preferences: visual.",
+        "Supports approved outcome(s): SCI7-PH-01, SCI7-PH-03.",
+        "Prerequisite 'cells' is recorded as mastered.",
+        "Targets weak topic(s): chlorophyll.",
+        "Selected for the practice phase; 15 minutes fit the lesson sequence."
+      ],
+      "warnings": [
+        "Class average 58.0% is below 60%; this activity is not explicitly scaffolded."
+      ],
+      "sequence": 3
+    },
+    {
+      "activity_id": "ACT-PH-08",
+      "title": "One-minute summary",
+      "description": "A timed partner summary linking photosynthesis to food chains and oxygen.",
+      "subject": "Science",
+      "topics": [
+        "Photosynthesis"
+      ],
+      "phase": "plenary",
+      "duration_minutes": 5,
+      "tags": [
+        "auditory",
+        "discussion",
+        "biology"
+      ],
+      "prerequisite_tags": [],
+      "targets_tags": [
+        "food chains"
+      ],
+      "supports_outcomes": [
+        "SCI7-PH-01",
+        "SCI7-PH-02",
+        "SCI7-PH-03"
+      ],
+      "materials": [
+        "Timer"
+      ],
+      "assessment_evidence": "Partner summary naming one global reason photosynthesis matters.",
+      "difficulty": "core",
+      "score": 0.4875,
+      "score_breakdown": {
+        "preference_match": {
+          "raw": 0.0,
+          "weight": 0.3,
+          "points": 0.0
+        },
+        "outcome_alignment": {
+          "raw": 1.0,
+          "weight": 0.3,
+          "points": 0.3
+        },
+        "prerequisite_readiness": {
+          "raw": 1.0,
+          "weight": 0.15,
+          "points": 0.15
+        },
+        "previous_results_fit": {
+          "raw": 0.25,
+          "weight": 0.15,
+          "points": 0.0375
+        },
+        "weak_topic_alignment": {
+          "raw": 0.0,
+          "weight": 0.1,
+          "points": 0.0
+        }
+      },
+      "reasons": [
+        "Supports approved outcome(s): SCI7-PH-01, SCI7-PH-02, SCI7-PH-03.",
+        "No prerequisite tags required.",
+        "Selected for the plenary phase; 5 minutes fit the lesson sequence."
+      ],
+      "warnings": [
+        "Class average 58.0% is below 60%; this activity is not explicitly scaffolded."
+      ],
+      "sequence": 4
+    }
+  ],
+  "assessment": {
+    "formative": [
+      "Partner predictions identifying where light is captured.",
+      "Annotated diagram linking chloroplasts to light absorption.",
+      "Whiteboard explanation with a labelled energy flow.",
+      "Partner summary naming one global reason photosynthesis matters."
+    ],
+    "summative": "Teacher-reviewed exit ticket plus the approved outcome success criteria.",
+    "success_criteria": [
+      "Exit ticket: one paragraph explaining the role of chlorophyll.",
+      "Label a diagram and complete the word equation.",
+      "Short answer linking photosynthesis to food chains and oxygen."
+    ]
+  },
+  "conclusion": {
+    "summary": "Close the 60-minute Science lesson with a short retrieval summary and a check against the approved outcomes.",
+    "next_steps": [
+      "Review the exit-ticket evidence against SCI7-PH-01.",
+      "Review the exit-ticket evidence against SCI7-PH-02.",
+      "Review the exit-ticket evidence against SCI7-PH-03.",
+      "Use the 10 flexible minutes for retrieval practice or targeted support."
+    ],
+    "exit_prompt": "Which activity helped you explain today's big idea most clearly?"
+  },
+  "timing": {
+    "requested_minutes": 60,
+    "planned_minutes": 50,
+    "flex_minutes": 10
+  },
+  "selection_summary": {
+    "candidate_count": 8,
+    "selected_count": 4,
+    "unallocated_minutes": 10
+  },
+  "warnings": [
+    "Class average 58.0% is below 60%; this activity is not explicitly scaffolded."
+  ],
+  "coverage": {
+    "requested_outcomes": [
+      "SCI7-PH-01",
+      "SCI7-PH-02",
+      "SCI7-PH-03"
+    ],
+    "supported_outcomes": [
+      "SCI7-PH-01",
+      "SCI7-PH-02",
+      "SCI7-PH-03"
+    ],
+    "uncovered_outcomes": []
+  },
+  "review": {
+    "status": "Pending Teacher Review",
+    "reviewer": null,
+    "decided_at": null,
+    "notes": null,
+    "history": [
+      {
+        "timestamp_utc": "2026-11-22T13:41:20Z",
+        "action": "created",
+        "actor": "System",
+        "from_status": null,
+        "to_status": "Pending Teacher Review",
+        "details": {
+          "message": "Lesson plan draft generated and queued for teacher review."
+        }
+      }
+    ]
+  }
+}

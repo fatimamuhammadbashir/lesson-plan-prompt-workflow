@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "input": {
+    "min_duration_minutes": 20,
+    "max_duration_minutes": 180,
+    "max_learner_preferences": 5,
+    "max_outcomes": 4,
+    "max_text_length": 500
+  },
+  "allowed_preferences": [
+    "visual",
+    "auditory",
+    "reading/writing",
+    "kinesthetic",
+    "hands-on",
+    "group work",
+    "independent",
+    "discussion",
+    "digital"
+  ],
+  "phase_order": [
+    "starter",
+    "main",
+    "practice",
+    "plenary"
+  ],
+  "ranking_weights": {
+    "preference_match": 0.3,
+    "outcome_alignment": 0.3,
+    "prerequisite_readiness": 0.15,
+    "previous_results_fit": 0.15,
+    "weak_topic_alignment": 0.1
+  },
+  "previous_results": {
+    "low_average_threshold": 60,
+    "high_average_threshold": 75,
+    "low_completion_threshold": 0.7
+  },
+  "storage": {
+    "plans_dir": "var/plans",
+    "review_log": "var/review_history.jsonl"
+  }
+}

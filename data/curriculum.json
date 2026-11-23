@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "curriculum_version": "2026.1",
+  "subjects": {
+    "Science": {
+      "Year 7": {
+        "Photosynthesis": {
+          "min_duration_minutes": 30,
+          "max_duration_minutes": 90,
+          "required_activity_tags": [
+            "biology"
+          ],
+          "outcomes": [
+            {
+              "id": "SCI7-PH-01",
+              "text": "Explain how light energy is absorbed by chlorophyll and used to make glucose during photosynthesis.",
+              "assessment": "Exit ticket: one paragraph explaining the role of chlorophyll.",
+              "prerequisite_tags": [
+                "cells",
+                "plants"
+              ]
+            },
+            {
+              "id": "SCI7-PH-02",
+              "text": "Describe the reactants and products of photosynthesis using the word equation.",
+              "assessment": "Label a diagram and complete the word equation.",
+              "prerequisite_tags": [
+                "cells",
+                "gas exchange"
+              ]
+            },
+            {
+              "id": "SCI7-PH-03",
+              "text": "Explain why photosynthesis is essential for life on Earth.",
+              "assessment": "Short answer linking photosynthesis to food chains and oxygen.",
+              "prerequisite_tags": [
+                "plants"
+              ]
+            }
+          ]
+        },
+        "Forces and Motion": {
+          "min_duration_minutes": 30,
+          "max_duration_minutes": 90,
+          "required_activity_tags": [
+            "physics"
+          ],
+          "outcomes": [
+            {
+              "id": "SCI7-FM-01",
+              "text": "Describe balanced and unbalanced forces and their effect on motion.",
+              "assessment": "Annotated force diagram with a written explanation.",
+              "prerequisite_tags": [
+                "measurement"
+              ]
+            },
+            {
+              "id": "SCI7-FM-02",
+              "text": "Calculate speed using distance and time, including correct units.",
+              "assessment": "Three speed calculations with units shown.",
+              "prerequisite_tags": [
+                "times tables",
+                "measurement"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "English": {
+      "Year 8": {
+        "Persuasive Writing": {
+          "min_duration_minutes": 30,
+          "max_duration_minutes": 90,
+          "required_activity_tags": [
+            "literacy"
+          ],
+          "outcomes": [
+            {
+              "id": "ENG8-PW-01",
+              "text": "Identify and use ethos, pathos and logos in a persuasive text.",
+              "assessment": "Annotate a model text and label the three appeals.",
+              "prerequisite_tags": [
+                "audience",
+                "paragraphing"
+              ]
+            },
+            {
+              "id": "ENG8-PW-02",
+              "text": "Write a persuasive opening that states a clear position.",
+              "assessment": "Draft an opening paragraph with a hook and a thesis.",
+              "prerequisite_tags": [
+                "paragraphing"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "Mathematics": {
+      "Year 7": {
+        "Fractions": {
+          "min_duration_minutes": 30,
+          "max_duration_minutes": 90,
+          "required_activity_tags": [
+            "numeracy"
+          ],
+          "outcomes": [
+            {
+              "id": "MAT7-FR-01",
+              "text": "Add and subtract fractions with different denominators.",
+              "assessment": "Five worked calculations showing common denominators.",
+              "prerequisite_tags": [
+                "equivalent fractions",
+                "times tables"
+              ]
+            },
+            {
+              "id": "MAT7-FR-02",
+              "text": "Solve word problems involving fractions and explain the method.",
+              "assessment": "Two word problems with reasoning shown.",
+              "prerequisite_tags": [
+                "equivalent fractions"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

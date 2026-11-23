@@ -1,0 +1,43 @@
+{
+  "objectives": [
+    {
+      "id": "OBJ-1",
+      "text": "Explain how chlorophyll captures light energy and why that matters for glucose production.",
+      "source_outcome_id": "SCI7-PH-01",
+      "success_criteria": "Exit ticket paragraph names chlorophyll, light energy and glucose."
+    },
+    {
+      "id": "OBJ-2",
+      "text": "Describe the reactants and products of photosynthesis using the word equation.",
+      "source_outcome_id": "SCI7-PH-02",
+      "success_criteria": "Completed word equation with reactants and products in the correct order."
+    },
+    {
+      "id": "OBJ-3",
+      "text": "Explain why photosynthesis is essential for life on Earth.",
+      "source_outcome_id": "SCI7-PH-03",
+      "success_criteria": "Short answer links photosynthesis to food chains and oxygen."
+    }
+  ],
+  "assessment": {
+    "formative": [
+      "Teacher observation of the chlorophyll reveal discussion.",
+      "Exit ticket paragraph checked against the chlorophyll success criterion."
+    ],
+    "summative": "Teacher-reviewed exit ticket and a short explanation of the word equation.",
+    "success_criteria": [
+      "Names chlorophyll and light energy.",
+      "Completes the word equation accurately.",
+      "Links photosynthesis to food chains and oxygen."
+    ]
+  },
+  "conclusion": {
+    "summary": "Close with a one-minute partner summary and a quick vocabulary check.",
+    "next_steps": [
+      "Review exit-ticket evidence before the next lesson.",
+      "Re-teach gas exchange for students who need it."
+    ],
+    "exit_prompt": "Why is photosynthesis essential for life on Earth?"
+  },
+  "note": "Clarified the first objective, tightened the assessment criteria and added an exit prompt."
+}

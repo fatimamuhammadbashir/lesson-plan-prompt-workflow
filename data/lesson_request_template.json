@@ -1,0 +1,19 @@
+{
+  "subject": "<subject, for example Science>",
+  "class_name": "<class, for example Year 7>",
+  "topic": "<approved curriculum topic>",
+  "duration_minutes": 60,
+  "learner_preferences": [
+    "<one or more allowed preferences>"
+  ],
+  "previous_results": {
+    "class_average": 0,
+    "completion_rate": 0,
+    "weak_topics": [],
+    "mastered_tags": []
+  },
+  "approved_outcome_ids": [
+    "<approved outcome id from data/curriculum.json>"
+  ],
+  "teacher_notes": ""
+}

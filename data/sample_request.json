@@ -1,0 +1,29 @@
+{
+  "subject": "Science",
+  "class_name": "Year 7",
+  "topic": "Photosynthesis",
+  "duration_minutes": 60,
+  "learner_preferences": [
+    "hands-on",
+    "visual",
+    "group work"
+  ],
+  "previous_results": {
+    "class_average": 58,
+    "completion_rate": 0.72,
+    "weak_topics": [
+      "chlorophyll",
+      "gas exchange"
+    ],
+    "mastered_tags": [
+      "cells",
+      "plants"
+    ]
+  },
+  "approved_outcome_ids": [
+    "SCI7-PH-01",
+    "SCI7-PH-02",
+    "SCI7-PH-03"
+  ],
+  "teacher_notes": "Include a quick cell-parts review because two students were absent last lesson."
+}

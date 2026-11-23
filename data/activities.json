@@ -1,0 +1,899 @@
+{
+  "schema_version": 1,
+  "activities": [
+    {
+      "id": "ACT-PH-01",
+      "title": "Leaf clue warm-up",
+      "description": "Pairs inspect fresh leaves with hand lenses and predict where light is captured.",
+      "subject": "Science",
+      "topics": [
+        "Photosynthesis"
+      ],
+      "phase": "starter",
+      "duration_minutes": 10,
+      "tags": [
+        "visual",
+        "hands-on",
+        "group work",
+        "biology"
+      ],
+      "prerequisite_tags": [
+        "plants"
+      ],
+      "targets_tags": [
+        "chlorophyll"
+      ],
+      "supports_outcomes": [
+        "SCI7-PH-01"
+      ],
+      "materials": [
+        "Fresh leaves",
+        "Hand lenses",
+        "Prediction slips"
+      ],
+      "assessment_evidence": "Partner predictions identifying where light is captured.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-PH-02",
+      "title": "Cell parts quick review",
+      "description": "A short labelled-diagram review of the cell parts needed for photosynthesis.",
+      "subject": "Science",
+      "topics": [
+        "Photosynthesis"
+      ],
+      "phase": "starter",
+      "duration_minutes": 5,
+      "tags": [
+        "visual",
+        "scaffolded",
+        "review",
+        "biology"
+      ],
+      "prerequisite_tags": [],
+      "targets_tags": [
+        "cells"
+      ],
+      "supports_outcomes": [
+        "SCI7-PH-01",
+        "SCI7-PH-02"
+      ],
+      "materials": [
+        "Cell diagram sheet"
+      ],
+      "assessment_evidence": "Correctly labelled chloroplast and cell wall.",
+      "difficulty": "support"
+    },
+    {
+      "id": "ACT-PH-03",
+      "title": "Chlorophyll reveal",
+      "description": "Groups examine leaf cross-sections and connect chloroplast location to light absorption.",
+      "subject": "Science",
+      "topics": [
+        "Photosynthesis"
+      ],
+      "phase": "main",
+      "duration_minutes": 20,
+      "tags": [
+        "visual",
+        "hands-on",
+        "group work",
+        "biology"
+      ],
+      "prerequisite_tags": [
+        "cells",
+        "plants"
+      ],
+      "targets_tags": [
+        "chlorophyll"
+      ],
+      "supports_outcomes": [
+        "SCI7-PH-01",
+        "SCI7-PH-02"
+      ],
+      "materials": [
+        "Leaf cross-section diagrams",
+        "Microscopes",
+        "Labelling pens"
+      ],
+      "assessment_evidence": "Annotated diagram linking chloroplasts to light absorption.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-PH-04",
+      "title": "Equation card sort",
+      "description": "Teams sort reactants, products and conditions into the photosynthesis word equation.",
+      "subject": "Science",
+      "topics": [
+        "Photosynthesis"
+      ],
+      "phase": "main",
+      "duration_minutes": 20,
+      "tags": [
+        "group work",
+        "discussion",
+        "reading/writing",
+        "biology"
+      ],
+      "prerequisite_tags": [
+        "gas exchange"
+      ],
+      "targets_tags": [
+        "gas exchange"
+      ],
+      "supports_outcomes": [
+        "SCI7-PH-02"
+      ],
+      "materials": [
+        "Equation card sets",
+        "Mini whiteboards"
+      ],
+      "assessment_evidence": "Completed word equation with reactants and products in the right order.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-PH-05",
+      "title": "Explain-it board",
+      "description": "Students build a visual explanation of photosynthesis on a shared whiteboard.",
+      "subject": "Science",
+      "topics": [
+        "Photosynthesis"
+      ],
+      "phase": "practice",
+      "duration_minutes": 15,
+      "tags": [
+        "discussion",
+        "visual",
+        "independent",
+        "biology"
+      ],
+      "prerequisite_tags": [
+        "cells"
+      ],
+      "targets_tags": [
+        "chlorophyll"
+      ],
+      "supports_outcomes": [
+        "SCI7-PH-01",
+        "SCI7-PH-03"
+      ],
+      "materials": [
+        "Mini whiteboards",
+        "Marker pens"
+      ],
+      "assessment_evidence": "Whiteboard explanation with a labelled energy flow.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-PH-06",
+      "title": "Design-a-leaf challenge",
+      "description": "Students design a leaf for a low-light environment and justify its adaptations.",
+      "subject": "Science",
+      "topics": [
+        "Photosynthesis"
+      ],
+      "phase": "practice",
+      "duration_minutes": 15,
+      "tags": [
+        "challenge",
+        "extension",
+        "independent",
+        "hands-on",
+        "biology"
+      ],
+      "prerequisite_tags": [
+        "plants"
+      ],
+      "targets_tags": [
+        "chlorophyll"
+      ],
+      "supports_outcomes": [
+        "SCI7-PH-01",
+        "SCI7-PH-03"
+      ],
+      "materials": [
+        "Design sheet",
+        "Coloured pencils"
+      ],
+      "assessment_evidence": "Annotated leaf design with a written adaptation justification.",
+      "difficulty": "extension"
+    },
+    {
+      "id": "ACT-PH-07",
+      "title": "Exit ticket: chlorophyll paragraph",
+      "description": "Students write a short paragraph explaining the role of chlorophyll.",
+      "subject": "Science",
+      "topics": [
+        "Photosynthesis"
+      ],
+      "phase": "plenary",
+      "duration_minutes": 10,
+      "tags": [
+        "independent",
+        "reading/writing",
+        "biology"
+      ],
+      "prerequisite_tags": [
+        "cells"
+      ],
+      "targets_tags": [
+        "chlorophyll"
+      ],
+      "supports_outcomes": [
+        "SCI7-PH-01",
+        "SCI7-PH-02"
+      ],
+      "materials": [
+        "Exit tickets"
+      ],
+      "assessment_evidence": "Exit paragraph scored against the chlorophyll success criterion.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-PH-08",
+      "title": "One-minute summary",
+      "description": "A timed partner summary linking photosynthesis to food chains and oxygen.",
+      "subject": "Science",
+      "topics": [
+        "Photosynthesis"
+      ],
+      "phase": "plenary",
+      "duration_minutes": 5,
+      "tags": [
+        "auditory",
+        "discussion",
+        "biology"
+      ],
+      "prerequisite_tags": [],
+      "targets_tags": [
+        "food chains"
+      ],
+      "supports_outcomes": [
+        "SCI7-PH-01",
+        "SCI7-PH-02",
+        "SCI7-PH-03"
+      ],
+      "materials": [
+        "Timer"
+      ],
+      "assessment_evidence": "Partner summary naming one global reason photosynthesis matters.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-FM-01",
+      "title": "Force picture sort",
+      "description": "Groups sort everyday pictures into balanced and unbalanced force examples.",
+      "subject": "Science",
+      "topics": [
+        "Forces and Motion"
+      ],
+      "phase": "starter",
+      "duration_minutes": 10,
+      "tags": [
+        "visual",
+        "group work",
+        "discussion",
+        "physics"
+      ],
+      "prerequisite_tags": [
+        "measurement"
+      ],
+      "targets_tags": [
+        "balanced forces"
+      ],
+      "supports_outcomes": [
+        "SCI7-FM-01"
+      ],
+      "materials": [
+        "Picture cards",
+        "Sorting mats"
+      ],
+      "assessment_evidence": "Sorted examples with a spoken justification.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-FM-02",
+      "title": "Trolley ramp investigation",
+      "description": "Groups measure how far a trolley travels and discuss the forces involved.",
+      "subject": "Science",
+      "topics": [
+        "Forces and Motion"
+      ],
+      "phase": "main",
+      "duration_minutes": 20,
+      "tags": [
+        "hands-on",
+        "group work",
+        "kinesthetic",
+        "physics"
+      ],
+      "prerequisite_tags": [
+        "measurement"
+      ],
+      "targets_tags": [
+        "unbalanced forces",
+        "speed"
+      ],
+      "supports_outcomes": [
+        "SCI7-FM-01",
+        "SCI7-FM-02"
+      ],
+      "materials": [
+        "Trolley",
+        "Ramp",
+        "Stopwatch",
+        "Metre rule"
+      ],
+      "assessment_evidence": "Results table with distance, time and a force explanation.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-FM-03",
+      "title": "Speed calculation relay",
+      "description": "Teams race to solve speed problems and check each other's units.",
+      "subject": "Science",
+      "topics": [
+        "Forces and Motion"
+      ],
+      "phase": "practice",
+      "duration_minutes": 15,
+      "tags": [
+        "group work",
+        "hands-on",
+        "kinesthetic",
+        "physics"
+      ],
+      "prerequisite_tags": [
+        "times tables"
+      ],
+      "targets_tags": [
+        "speed"
+      ],
+      "supports_outcomes": [
+        "SCI7-FM-02"
+      ],
+      "materials": [
+        "Calculation cards",
+        "Answer sheets"
+      ],
+      "assessment_evidence": "Worked speed calculations with correct units.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-FM-04",
+      "title": "Concept cartoon discussion",
+      "description": "Students evaluate competing explanations of a balanced-force situation.",
+      "subject": "Science",
+      "topics": [
+        "Forces and Motion"
+      ],
+      "phase": "plenary",
+      "duration_minutes": 10,
+      "tags": [
+        "visual",
+        "discussion",
+        "physics"
+      ],
+      "prerequisite_tags": [],
+      "targets_tags": [
+        "balanced forces"
+      ],
+      "supports_outcomes": [
+        "SCI7-FM-01"
+      ],
+      "materials": [
+        "Concept cartoon sheet"
+      ],
+      "assessment_evidence": "Oral explanation choosing and defending one cartoon character.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-FM-05",
+      "title": "Exit ticket: balanced or unbalanced",
+      "description": "A short individual check classifying two force diagrams.",
+      "subject": "Science",
+      "topics": [
+        "Forces and Motion"
+      ],
+      "phase": "plenary",
+      "duration_minutes": 5,
+      "tags": [
+        "independent",
+        "reading/writing",
+        "physics"
+      ],
+      "prerequisite_tags": [],
+      "supports_outcomes": [
+        "SCI7-FM-01"
+      ],
+      "materials": [
+        "Exit slips"
+      ],
+      "assessment_evidence": "Two diagrams correctly classified with a reason.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-PW-01",
+      "title": "Advert analysis",
+      "description": "Groups identify how an advert persuades its audience.",
+      "subject": "English",
+      "topics": [
+        "Persuasive Writing"
+      ],
+      "phase": "starter",
+      "duration_minutes": 10,
+      "tags": [
+        "visual",
+        "discussion",
+        "group work",
+        "literacy"
+      ],
+      "prerequisite_tags": [
+        "audience"
+      ],
+      "targets_tags": [
+        "persuasive techniques"
+      ],
+      "supports_outcomes": [
+        "ENG8-PW-01"
+      ],
+      "materials": [
+        "Printed adverts",
+        "Highlighters"
+      ],
+      "assessment_evidence": "Annotated advert with two persuasive techniques named.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-PW-02",
+      "title": "Persuasive word bank",
+      "description": "Students build a shared bank of persuasive verbs and connectives.",
+      "subject": "English",
+      "topics": [
+        "Persuasive Writing"
+      ],
+      "phase": "starter",
+      "duration_minutes": 5,
+      "tags": [
+        "reading/writing",
+        "scaffolded",
+        "literacy"
+      ],
+      "prerequisite_tags": [],
+      "targets_tags": [
+        "vocabulary"
+      ],
+      "supports_outcomes": [
+        "ENG8-PW-02"
+      ],
+      "materials": [
+        "Word bank sheet"
+      ],
+      "assessment_evidence": "Three useful words added to the class bank.",
+      "difficulty": "support"
+    },
+    {
+      "id": "ACT-PW-03",
+      "title": "Ethos, pathos, logos card sort",
+      "description": "Teams sort examples of the three rhetorical appeals and justify their choices.",
+      "subject": "English",
+      "topics": [
+        "Persuasive Writing"
+      ],
+      "phase": "main",
+      "duration_minutes": 20,
+      "tags": [
+        "group work",
+        "hands-on",
+        "discussion",
+        "literacy"
+      ],
+      "prerequisite_tags": [
+        "audience"
+      ],
+      "targets_tags": [
+        "persuasive appeals"
+      ],
+      "supports_outcomes": [
+        "ENG8-PW-01"
+      ],
+      "materials": [
+        "Appeal card sets",
+        "Sorting frame"
+      ],
+      "assessment_evidence": "Correctly sorted examples with a written justification.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-PW-04",
+      "title": "Debate carousel",
+      "description": "Groups rotate through short debates, practising appeals and counterarguments.",
+      "subject": "English",
+      "topics": [
+        "Persuasive Writing"
+      ],
+      "phase": "main",
+      "duration_minutes": 25,
+      "tags": [
+        "discussion",
+        "auditory",
+        "group work",
+        "literacy"
+      ],
+      "prerequisite_tags": [
+        "audience"
+      ],
+      "targets_tags": [
+        "persuasive appeals",
+        "structure"
+      ],
+      "supports_outcomes": [
+        "ENG8-PW-01",
+        "ENG8-PW-02"
+      ],
+      "materials": [
+        "Motion cards",
+        "Timer"
+      ],
+      "assessment_evidence": "Teacher observation of one appeal and one counterargument.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-PW-05",
+      "title": "Persuasive opening rewrite",
+      "description": "Students rewrite a weak opening paragraph to add a hook and clear position.",
+      "subject": "English",
+      "topics": [
+        "Persuasive Writing"
+      ],
+      "phase": "practice",
+      "duration_minutes": 15,
+      "tags": [
+        "independent",
+        "reading/writing",
+        "literacy"
+      ],
+      "prerequisite_tags": [
+        "paragraphing"
+      ],
+      "targets_tags": [
+        "opening"
+      ],
+      "supports_outcomes": [
+        "ENG8-PW-02"
+      ],
+      "materials": [
+        "Model openings",
+        "Writing books"
+      ],
+      "assessment_evidence": "Rewritten opening with a hook and thesis underlined.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-PW-06",
+      "title": "Challenge: counterargument",
+      "description": "Students add a counterargument and rebuttal to a persuasive paragraph.",
+      "subject": "English",
+      "topics": [
+        "Persuasive Writing"
+      ],
+      "phase": "practice",
+      "duration_minutes": 15,
+      "tags": [
+        "challenge",
+        "independent",
+        "reading/writing",
+        "literacy"
+      ],
+      "prerequisite_tags": [
+        "paragraphing"
+      ],
+      "targets_tags": [
+        "counterargument"
+      ],
+      "supports_outcomes": [
+        "ENG8-PW-01"
+      ],
+      "materials": [
+        "Planning sheet"
+      ],
+      "assessment_evidence": "A counterargument and rebuttal in one paragraph.",
+      "difficulty": "extension"
+    },
+    {
+      "id": "ACT-PW-07",
+      "title": "Peer pitch",
+      "description": "Pairs deliver a one-minute pitch and give feedback on the strongest appeal.",
+      "subject": "English",
+      "topics": [
+        "Persuasive Writing"
+      ],
+      "phase": "plenary",
+      "duration_minutes": 10,
+      "tags": [
+        "auditory",
+        "discussion",
+        "group work",
+        "literacy"
+      ],
+      "prerequisite_tags": [],
+      "targets_tags": [
+        "persuasive appeals"
+      ],
+      "supports_outcomes": [
+        "ENG8-PW-01",
+        "ENG8-PW-02"
+      ],
+      "materials": [
+        "Feedback slips",
+        "Timer"
+      ],
+      "assessment_evidence": "Peer feedback naming one effective appeal.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-PW-08",
+      "title": "Exit slip: one appeal",
+      "description": "Students identify the appeal used in one sentence and explain why it works.",
+      "subject": "English",
+      "topics": [
+        "Persuasive Writing"
+      ],
+      "phase": "plenary",
+      "duration_minutes": 5,
+      "tags": [
+        "independent",
+        "reading/writing",
+        "literacy"
+      ],
+      "prerequisite_tags": [],
+      "supports_outcomes": [
+        "ENG8-PW-01"
+      ],
+      "materials": [
+        "Exit slips"
+      ],
+      "assessment_evidence": "One appeal correctly named with a short explanation.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-FR-01",
+      "title": "Fraction wall warm-up",
+      "description": "Students use fraction walls to find equivalent fractions.",
+      "subject": "Mathematics",
+      "topics": [
+        "Fractions"
+      ],
+      "phase": "starter",
+      "duration_minutes": 10,
+      "tags": [
+        "visual",
+        "hands-on",
+        "numeracy"
+      ],
+      "prerequisite_tags": [
+        "equivalent fractions"
+      ],
+      "targets_tags": [
+        "equivalent fractions"
+      ],
+      "supports_outcomes": [
+        "MAT7-FR-01"
+      ],
+      "materials": [
+        "Fraction walls"
+      ],
+      "assessment_evidence": "Three equivalent fraction pairs found and recorded.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-FR-02",
+      "title": "Times-table sprint",
+      "description": "A quick individual multiplication check to prepare for common denominators.",
+      "subject": "Mathematics",
+      "topics": [
+        "Fractions"
+      ],
+      "phase": "starter",
+      "duration_minutes": 5,
+      "tags": [
+        "independent",
+        "scaffolded",
+        "numeracy"
+      ],
+      "prerequisite_tags": [
+        "times tables"
+      ],
+      "targets_tags": [
+        "times tables"
+      ],
+      "supports_outcomes": [
+        "MAT7-FR-01"
+      ],
+      "materials": [
+        "Sprint sheets"
+      ],
+      "assessment_evidence": "Times-table sprint score recorded.",
+      "difficulty": "support"
+    },
+    {
+      "id": "ACT-FR-03",
+      "title": "Pizza fraction workshop",
+      "description": "Groups use fraction circles to add and subtract fractions with different denominators.",
+      "subject": "Mathematics",
+      "topics": [
+        "Fractions"
+      ],
+      "phase": "main",
+      "duration_minutes": 20,
+      "tags": [
+        "hands-on",
+        "group work",
+        "visual",
+        "numeracy"
+      ],
+      "prerequisite_tags": [
+        "equivalent fractions"
+      ],
+      "targets_tags": [
+        "common denominators"
+      ],
+      "supports_outcomes": [
+        "MAT7-FR-01",
+        "MAT7-FR-02"
+      ],
+      "materials": [
+        "Fraction circles",
+        "Recording sheet"
+      ],
+      "assessment_evidence": "Worked calculations with common denominators shown.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-FR-04",
+      "title": "Error hunt",
+      "description": "Teams find and correct mistakes in worked fraction calculations.",
+      "subject": "Mathematics",
+      "topics": [
+        "Fractions"
+      ],
+      "phase": "main",
+      "duration_minutes": 20,
+      "tags": [
+        "discussion",
+        "group work",
+        "numeracy"
+      ],
+      "prerequisite_tags": [
+        "equivalent fractions"
+      ],
+      "targets_tags": [
+        "common errors"
+      ],
+      "supports_outcomes": [
+        "MAT7-FR-01"
+      ],
+      "materials": [
+        "Worked examples",
+        "Correction pens"
+      ],
+      "assessment_evidence": "Errors identified with a corrected calculation.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-FR-05",
+      "title": "Word-problem carousel",
+      "description": "Groups rotate through fraction word problems and compare methods.",
+      "subject": "Mathematics",
+      "topics": [
+        "Fractions"
+      ],
+      "phase": "practice",
+      "duration_minutes": 15,
+      "tags": [
+        "group work",
+        "discussion",
+        "reading/writing",
+        "numeracy"
+      ],
+      "prerequisite_tags": [
+        "equivalent fractions"
+      ],
+      "targets_tags": [
+        "word problems"
+      ],
+      "supports_outcomes": [
+        "MAT7-FR-02"
+      ],
+      "materials": [
+        "Problem cards",
+        "Answer grids"
+      ],
+      "assessment_evidence": "Two word problems solved with reasoning shown.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-FR-06",
+      "title": "Challenge: recipe scaling",
+      "description": "Students scale a recipe up and down, reasoning with fractions.",
+      "subject": "Mathematics",
+      "topics": [
+        "Fractions"
+      ],
+      "phase": "practice",
+      "duration_minutes": 15,
+      "tags": [
+        "challenge",
+        "independent",
+        "hands-on",
+        "numeracy"
+      ],
+      "prerequisite_tags": [
+        "times tables"
+      ],
+      "targets_tags": [
+        "word problems"
+      ],
+      "supports_outcomes": [
+        "MAT7-FR-02"
+      ],
+      "materials": [
+        "Recipe cards"
+      ],
+      "assessment_evidence": "Scaled recipe with fractional quantities explained.",
+      "difficulty": "extension"
+    },
+    {
+      "id": "ACT-FR-07",
+      "title": "Show-me boards",
+      "description": "The class solves fraction calculations on mini whiteboards for instant feedback.",
+      "subject": "Mathematics",
+      "topics": [
+        "Fractions"
+      ],
+      "phase": "plenary",
+      "duration_minutes": 10,
+      "tags": [
+        "visual",
+        "independent",
+        "numeracy"
+      ],
+      "prerequisite_tags": [],
+      "supports_outcomes": [
+        "MAT7-FR-01",
+        "MAT7-FR-02"
+      ],
+      "materials": [
+        "Mini whiteboards",
+        "Marker pens"
+      ],
+      "assessment_evidence": "Whole-class responses to three fraction calculations.",
+      "difficulty": "core"
+    },
+    {
+      "id": "ACT-FR-08",
+      "title": "Exit ticket: fraction calculation",
+      "description": "A short individual check of one addition and one subtraction.",
+      "subject": "Mathematics",
+      "topics": [
+        "Fractions"
+      ],
+      "phase": "plenary",
+      "duration_minutes": 5,
+      "tags": [
+        "independent",
+        "reading/writing",
+        "numeracy"
+      ],
+      "prerequisite_tags": [],
+      "supports_outcomes": [
+        "MAT7-FR-01"
+      ],
+      "materials": [
+        "Exit slips"
+      ],
+      "assessment_evidence": "Two calculations with common denominators shown.",
+      "difficulty": "core"
+    }
+  ]
+}
